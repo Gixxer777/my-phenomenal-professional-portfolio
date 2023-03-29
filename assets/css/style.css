@@ -1,0 +1,30 @@
+* {
+    font-family: "GT Walsheim", "Brandon Grotesque", sans-serif; 
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0986ec;
+}
+
+h1 {
+    font-size: 33px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    font-size: 16px;
+}
+
+
+banner {
+    height: 200px;
+    width: 30%;
+    background-color: #222272
+    
+}
