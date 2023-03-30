@@ -1,11 +1,11 @@
 * {
     font-family: "GT Walsheim", "Brandon Grotesque", sans-serif; 
-    padding: 0px;
-    margin: 0px;
 }
 
 header {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     background-color: #0986ec;
@@ -15,16 +15,85 @@ h1 {
     font-size: 33px;
 }
 
-nav ul {
-    list-style-type: none;
-    display: flex;
+nav {
+    
     font-size: 16px;
 }
 
-
-banner {
+.banner {
+    display: flex;
+    justify-content: space-between;
     height: 200px;
-    width: 30%;
-    background-color: #222272
-    
+    width: 100%;
+    background-color: #222272;
+    color: white;
 }
+
+main {
+    background-color: lightskyblue;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.content > h3 {
+    flex: 0 0 20%;
+    text-align: right;
+    border-right: 4px solid black;
+    font-size: 3vw;
+    line-height: 1.1;
+}
+
+.content > div { 
+   flex: 0 0 77%;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.big-box {
+    height: 350px;
+    width: 1000px;
+    border: 5px solid red;
+    background-color: black;
+    color: white;
+    margin: 10px;
+}
+
+.small-box {
+    height: 170px;
+    width: 500px;
+    border: 5px solid red;
+    background-color: black;
+    color: white;
+    margin: 10px;
+}
+/* hover effects for glow*/
+
+/* media queries to make screen responsive */
+@media screen and (max-width: 992px) {
+  header {
+    background: #093d55;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    main {
+      background-color: #2903fd;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .small-box {
+      background-color: #9cc9f7;
+    }
+  }
+  
