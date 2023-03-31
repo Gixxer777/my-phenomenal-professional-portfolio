@@ -10,7 +10,7 @@ N/A
 
 ## Usage
 
-To use the website, click on the link in the navigation bar (About Me, Work, or Contact Me) to scroll automatically to the corresponding section. In the Work section, if you hover over the boxes, they will light up. If you click them you will be brought to the corresponding application in the future when they are deployed. In the contact me section, if you click the link you will be brought to the corresponding way of contacting me. If you go to Inspect by typing Command+Option+I (Mac OS) or CTRL+Shift+I (Windows) and resize the screen using the Toggle Device Toolbar, you will see that the site accomodates smaller screen sizes.
+To use the website, click on the link in the navigation bar (About Me, Work, or Contact Me) to scroll automatically to the corresponding section. In the Work section, if you hover over the boxes, then a shadow will appear. If you click them you will be brought to the corresponding application in the future when they are deployed. In the contact me section, if you click the link you will be brought to the corresponding way of contacting me. If you go to Inspect by typing Command+Option+I (Mac OS) or CTRL+Shift+I (Windows) and resize the screen using the Toggle Device Toolbar, you will see that the site accomodates smaller screen sizes.
 
 ## Credits
 
